@@ -4,7 +4,7 @@ namespace Fourello\AWSPushNotification;
 
 use Illuminate\Support\ServiceProvider;
 
-class ContactFormServiceProvider extends ServiceProvider {
+class FourelloAWSPushNotificationServiceProvider extends ServiceProvider {
 
     public function boot()
     {
