@@ -1,5 +1,4 @@
 <?php
-
 namespace Fourello\AWSPushNotification;
 
 use Illuminate\Support\ServiceProvider;
