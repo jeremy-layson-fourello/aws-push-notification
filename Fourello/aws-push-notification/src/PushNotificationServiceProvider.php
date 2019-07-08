@@ -1,9 +1,9 @@
 <?php
-namespace Fourello\AWSPushNotification;
+namespace Fourello;
 
 use Illuminate\Support\ServiceProvider;
 
-class FourelloAWSPushNotificationServiceProvider extends ServiceProvider {
+class PushNotificationServiceProvider extends ServiceProvider {
 
     public function boot()
     {

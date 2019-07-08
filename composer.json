@@ -25,16 +25,15 @@
     },
     "autoload": {
         "psr-4": {
-            "Fourello\\AWSPushNotification\\": "src"
+            "Fourello\\": "src"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Fourello\\AWSPushNotification\\FourelloAWSPushNotificationServiceProvider"
+                "Fourello\\PushNotificationServiceProvider"
             ],
-                "aliases": {
-            }
+                "aliases": {"fourello-push-notification"}
         }
     }
 }
