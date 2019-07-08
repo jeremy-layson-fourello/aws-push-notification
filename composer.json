@@ -27,5 +27,14 @@
         "psr-4": {
             "Fourello\\": "src"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Fourello\\AWSPushNotification\\FourelloAWSPushNotificationServiceProvider"
+            ],
+                "aliases": {
+            }
+        }
     }
 }
