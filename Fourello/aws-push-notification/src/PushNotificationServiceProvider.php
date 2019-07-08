@@ -28,4 +28,9 @@ class PushNotificationServiceProvider extends ServiceProvider {
     {
 
     }
+
+    public function provides()
+    {
+        return ['Fourello'];
+    }
 }
