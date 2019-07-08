@@ -28,10 +28,4 @@
             "Fourello\\": "src",
         }
     },
-    "autoload-dev": {
-        "psr-4": {
-            "MyVendor\\Contactform\\": "packages/MyVendor/contactform/src",
-            "Tests\\": "tests/"
-        }
-    },
 }
