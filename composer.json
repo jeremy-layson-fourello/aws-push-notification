@@ -33,7 +33,9 @@
             "providers": [
                 "Fourello\\PushNotificationServiceProvider"
             ],
-                "aliases": {"fourello-push-notification"}
+            "aliases": {
+                "fourello-push-notification": "Fourello\\PushNotificationServiceProvider"
+            }
         }
     }
 }
