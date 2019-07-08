@@ -1,0 +1,16 @@
+{
+    "name": "fourello-inc/aws-push-notification",
+    "type": "library",
+    "description": "A push notification for mobile devices powered with Amazon Web Services (AWS) Simple Notification Service (SNS)",
+    "keywords": ["aws", "push", "notification", "mobile", "android", "ios"],
+    "homepage": "https://fourello.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jeremy Layson",
+            "email": "jeremy.b.layson@gmail.com",
+            "homepage": "https://fourello.com",
+            "role": "Developer"
+        }
+    ],
+}
