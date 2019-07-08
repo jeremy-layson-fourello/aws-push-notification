@@ -26,11 +26,12 @@ class PushNotificationServiceProvider extends ServiceProvider {
 
     public function register()
     {
+        $this->app->alias('fourello-push-notification', 'Fourello');
 
     }
 
     public function provides()
     {
-        return ['Fourello'];
+        return ['fourello-push-notification', 'Fourello'];
     }
 }

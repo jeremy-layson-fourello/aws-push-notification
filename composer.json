@@ -32,7 +32,10 @@
         "laravel": {
             "providers": [
                 "Fourello\\PushNotificationServiceProvider"
-            ]
+            ],
+            "aliases": {
+                "fourello-push-notification": "Fourello\\PushNotificationServiceProvider"
+            }
         }
     }
 }
